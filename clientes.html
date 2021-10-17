@@ -1,0 +1,114 @@
+<html>
+<head>
+    <link href="estiloClientes.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="interno">Ingrese o consulte los Datos del sistema UABU</div>
+    <div class="botones">
+         
+        <button class="boton" ng-click="Buscar()">
+            Buscar
+        </button>
+        <button class="boton" ng-click="Editar()">
+            Editar
+        </button>
+        <button class="boton" ng-click="Agregar()">
+            Agregar
+        </button>
+        <button class="boton" ng-click="Guardar()">
+            Guardar
+        </button>
+        <button class="boton" ng-click="Listar()">
+            Listar
+        </button>
+    </div>
+    <table   >
+        <caption>Ingrese los datos del Cliente </caption>
+        
+        <tr>
+            <td colspan="3">
+                Documento del Cliente
+            </td>
+            <td>
+                <input type="number" id="docCliente">
+            </td>
+            <td colspan="2">
+                Primer Nombre
+            </td>
+            <td>
+                <input type="text" id="primerNombre">
+            </td>
+            
+            
+        </tr>
+        <tr>
+            <td colspan="3">
+                Segundo Nombre
+            </td>
+            <td>
+                <input type="text" id="segundoNombre">
+            </td>
+            <td>
+                Primer Apellido
+            </td>
+            <td colspan="2">
+                <input type="text" id="primerApellido" >
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="3">
+                Segundo Apellido
+            </td>
+            <td>
+                <input type="text" id="segundoApellido">
+            </td>
+            <td>
+                Dirección
+            </td>
+            <td colspan="2">
+                <input type="text" id="dirCliente" >
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="3">
+                Telefono General
+            </td>
+            <td>
+                <input type="text" id="telefono1">
+            </td>
+            <td>
+                otro telefono
+            </td>
+            <td colspan="2">
+                <input type="text" id="telefono2" >
+            </td>
+           
+        </tr>
+        <tr>
+            <td>
+                Correo Electronico:
+            </td>
+            <td colspan="3">
+                <input type="text" id="eMail" >
+            </td>
+        </tr>
+
+
+
+    </table>
+    <table  id="tabla1">
+        <tr>
+            documento    nombre direccion telefono telefono 2 Email
+        </tr>
+    </table>
+
+    
+
+
+
+
+</body>
+
+</html>
