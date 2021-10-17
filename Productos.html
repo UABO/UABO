@@ -1,0 +1,66 @@
+<html>
+<head>
+    <link href="Productos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="interno">Registro y consulta de Productos</div>
+    <div class="botones">
+         
+        <button class="boton" ng-click="Buscar()">
+            Buscar
+        </button>
+        <button class="boton" ng-click="Editar()">
+            Editar
+        </button>
+        <button class="boton" ng-click="Agregar()">
+            Agregar
+        </button>
+        <button class="boton" ng-click="Guardar()">
+            Guardar
+        </button>
+        <button class="boton" ng-click="Listar()">
+            Listar
+        </button>
+    </div>
+    <table   >
+        <caption>Datos del producto </caption>
+        
+        <tr>
+            <td colspan="3">
+                Identificador producto
+            </td>
+            <td>
+                <input type="number" id="idProductos">
+            </td>
+            <td colspan="2">
+                Descripcion
+            </td>
+            <td>
+                <input type="text" id="descripción">
+            </td>
+            
+            
+        </tr>
+        <tr>
+            <td colspan="3">
+                Valor unidad
+            </td>
+            <td>
+                <input type="number" id="vlrUnitario">
+            </td>
+            <td>
+                Estado
+            </td>
+            <td colspan="2">
+                <input type="binary" id="estado" >
+            </td>
+        
+
+
+
+    </table>
+ 
+
+</body>
+
+</html>
